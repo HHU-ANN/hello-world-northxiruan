@@ -25,7 +25,7 @@ def lasso(data):
            break
     return weight @ data
 
-def read_data(path='./data/exp02/'):
+def read_data(path='./data/exp02/')
     x = n.load(path + 'X_train.npy')
     y = n.load(path + 'y_train.npy')
     return x, y
